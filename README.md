@@ -25,9 +25,22 @@ The script offers the following configuration options:
 
 ## Installation
 
-1. Clone this repository to your local machine
-2. Navigate to the directory containing the script
-3. Grant execute permissions to the script by running `chmod +x vsftpd-configurator.sh`
+There are two methods to install the \`vsftpd-configurator.sh\` script:
+
+**Method 1: Download the script directly**
+
+```bash
+curl -O https://raw.githubusercontent.com/dev-taewon-kim/vsftpd-configurator/main/vsftpd-configurator.sh
+chmod +x vsftpd-configurator.sh
+```
+
+**Method 2: Clone the repository**
+
+```bash
+git clone https://github.com/dev-taewon-kim/vsftpd-configurator.git
+cd vsftpd-configurator
+chmod +x vsftpd-configurator.sh
+```
 
 ## Usage
 
@@ -35,7 +48,6 @@ The script offers the following configuration options:
 2. The available configuration options will be displayed in a numbered list
 3. Enter the number corresponding to the desired option and press Enter
 4. Follow the on-screen prompts for your selected configuration
-5. Once configured, restart the VSFTPD service using `systemctl restart vsftpd` for the changes to take effect
 
 ## Contributing
 
